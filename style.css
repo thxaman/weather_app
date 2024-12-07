@@ -139,8 +139,8 @@ body {
         justify-content: center;
     }
     .weather{
-        display: flex;
-        justify-content: center;
+        /* display: flex;
+        justify-content: center; */
     }
     .weather h1{
         font-size: 59px;
