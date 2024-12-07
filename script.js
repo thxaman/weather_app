@@ -32,7 +32,7 @@ async function checkWeather(city) {
     }
 
     document.querySelector(".weather").style.display = "block";
-    document.querySelector(".details").style.display = "flex";
+    document.querySelector(".visible_details").style.display = "flex";
     document.querySelector(".error").style.display = "none"; 
   }
 }

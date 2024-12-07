@@ -81,7 +81,7 @@ body {
 }
 
 .details {
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
@@ -114,4 +114,45 @@ body {
     font-size: 14px;
     margin-top: 10px;
     display: none;
+}
+@media(max-width:463px) {
+    .search{
+        flex-direction: column;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .search .inp input{
+        width: 228px;
+        margin-left: 15px;
+        
+        
+    }
+    .search .inp{
+        display: flex;
+        
+    
+    }
+    body{
+        display: flex;
+        justify-content: center;
+    }
+    .weather{
+        display: flex;
+        justify-content: center;
+    }
+    .weather h1{
+        font-size: 59px;
+
+    }
+    .weather h2{
+        font-size: 35px;
+    }
+    .details{
+        flex-direction: column;
+        gap: 24px;
+        margin-top: 42px;
+    }
+    
 }
